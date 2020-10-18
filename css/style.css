@@ -7,6 +7,10 @@
 
 }
 
+body {
+    background-color: #f8f9fa;
+}
+
 .logo {
     height: 60px;
     transition: all 500ms;
@@ -39,10 +43,65 @@
     transform: scale(1.2);
 }
 
-.card-body {
+.highligth-wrapper .card {
+    border: none;
+    box-shadow: 1px 2px 11px 0px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 1px 2px 11px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 1px 2px 11px 0px rgba(0,0,0,0.38);
+}
+
+.highligth-wrapper .card-body {
     text-align: center;
 }
 
-.card-title span {
+.highligth-wrapper .card-title span {
     color: #418924;
+}
+
+.post-wrapper .card {
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 2px 11px 0px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 1px 2px 11px 0px rgba(0,0,0,0.38);
+    -moz-box-shadow: 1px 2px 11px 0px rgba(0,0,0,0.38);
+}
+
+.post-wrapper .card-img-top {
+    border-radius: 0;
+}
+
+.agenda h5 {
+    overflow: hidden;
+    color: #418924;
+}
+
+.agenda h5:after {
+    content: "";
+    display: inline-block;
+    height: 0.5rem;
+    /* vertical-align: bottom; */
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 3px solid black;
+}
+
+footer {
+    background-color: #4D5053;
+    color: #ffffff;
+}
+
+footer a,
+footer address {
+    color: #ffffff;
+    font-size: 0.8rem;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer small {
+    font-size: 0.6rem;
 }
