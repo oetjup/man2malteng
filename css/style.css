@@ -12,6 +12,12 @@ body {
 
 }
 
+@media (min-width: 576px) {
+    .highligth-wrapper .card  p {
+        font-size: 0.9rem;
+    }
+}
+
 body {
     background-color: #f8f9fa;
 }
